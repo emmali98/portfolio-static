@@ -11,6 +11,10 @@ export default function NavLinks() {
       <Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/">
         Home
       </Link>
+
+      <Link className={`link ${pathname === '/works' ? 'active' : ''}`} href="/works" >
+        Works
+      </Link>
  
       <Link className={`link ${pathname === '/about' ? 'active' : ''}`} href="/about" >
         About
