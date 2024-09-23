@@ -16,7 +16,7 @@ export default function Page() {
         tools={entry.tools}
         path={entry.path}
         opened={openWork == entry.title}
-        onWorkChange={() => changeWork(entry.title)} 
+        onWorkChange={changeWork} 
       />
     </li>
   );
