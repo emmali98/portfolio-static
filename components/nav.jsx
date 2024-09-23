@@ -2,12 +2,13 @@
  
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
+import styles from '../styles/nav.module.scss'
  
 export default function NavLinks() {
   const pathname = usePathname()
  
   return (
-    <nav>
+    <nav className={styles.navigation}>
       <Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/">
         Home
       </Link>
