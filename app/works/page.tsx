@@ -2,6 +2,7 @@
 import WorkEntry from '@/components/work-entry.jsx';
 import workData from '../../public/works-data.jsx';
 import { useState } from 'react';
+import styles from '../../styles/page.module.scss';
 
 export default function Page() {
   const [openWork, setOpenWork] = useState('');
@@ -21,10 +22,10 @@ export default function Page() {
     </li>
   );
 
-  return <>
+  return <div className={styles.wrapper}>
     <h1>Works</h1> 
     <ul className="works-wrapper">
       {worksList}
     </ul>
-  </> 
+  </div> 
 }
