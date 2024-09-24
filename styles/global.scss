@@ -73,8 +73,10 @@ h1 {
 }
 
 button {
-	background: #3a88a2;
-	color: white;
+	background-image: url(../public/brown-paper.png);
+	background-color: transparent;
+	background-size: 100% 100%;
+	color: black;
 	font-family: 'Bohemian Typewriter', 'Courier New';
 	font-size: 18px;
 	margin: 1em;
