@@ -16,6 +16,7 @@ export default function Page() {
         date={entry.date}
         tools={entry.tools}
         path={entry.path}
+        image={entry.image}
         opened={openWork == entry.title}
         onWorkChange={changeWork} 
         notes={entry.notes}
