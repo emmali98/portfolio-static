@@ -9,19 +9,19 @@ export default function NavLinks() {
  
   return (
     <nav className={styles.navigation}>
-      <Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/">
-        Home
+      <Link className={`link ${pathname === '/' ? styles.active : ''}`} href="/">
+        Emma Li
       </Link>
 
-      <Link className={`link ${pathname === '/works' ? 'active' : ''}`} href="/works" >
+      <Link className={`link ${pathname === '/works' ? styles.active : ''}`} href="/works" >
         Works
       </Link>
  
-      <Link className={`link ${pathname === '/about' ? 'active' : ''}`} href="/about" >
+      <Link className={`link ${pathname === '/about' ? styles.active : ''}`} href="/about" >
         About
       </Link>
 
-      <Link className={`link ${pathname === '/contact' ? 'active' : ''}`} href="/contact">
+      <Link className={`link ${pathname === '/contact' ? styles.active : ''}`} href="/contact">
         Contact
       </Link>
     </nav>

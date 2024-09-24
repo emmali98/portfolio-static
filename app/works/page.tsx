@@ -10,7 +10,7 @@ export default function Page() {
   const changeWork = (title) => setOpenWork(title);
 
   const worksList = workData.map(entry => 
-    <li key={entry.title}>
+    <li key={entry.date + entry.title}>
       <WorkEntry
         title={entry.title}
         date={entry.date}
@@ -18,6 +18,7 @@ export default function Page() {
         path={entry.path}
         opened={openWork == entry.title}
         onWorkChange={changeWork} 
+        notes={entry.notes}
       />
     </li>
   );

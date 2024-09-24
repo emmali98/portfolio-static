@@ -61,7 +61,32 @@ table {
 
 /* GLOBAL STYLES */
 body {
-	font-family: 'Kingthings Typewriter', 'Bohemian Typewriter', 'Courier New';
+	font-family: 'Bohemian Typewriter', 'Courier New';
 	font-size: 18px;
-	background-color: bisque;
+	background-color: #fef0d7;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 32px;
+	padding-bottom: 0.5em;
+}
+
+button {
+	background: #3a88a2;
+	color: white;
+	font-family: 'Bohemian Typewriter', 'Courier New';
+	font-size: 18px;
+	margin: 1em;
+	padding: 0.5em;
+	border: none;
+}
+
+a {
+	color:#3a88a2;
+	&:hover { color: black; }
+}
+
+p {
+	padding-bottom: 0.5em;
 }
