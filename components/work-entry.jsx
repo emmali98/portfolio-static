@@ -4,8 +4,7 @@ import styles from '../styles/workentry.module.scss';
 
 export default function WorkEntry({ title, date, tools, path, image, opened, onWorkChange, notes}) {
     return (<div className={styles.entry}>
-        <h2>{title}, {date}</h2>
-        {!opened && <button onClick={() => onWorkChange(title)}>Open...</button>}
+        {!opened && <button className={styles.open} onClick={() => onWorkChange(title)}>{title}, {date}</button>}
         {opened && <WorkModal
             title={title}
             date={date}
