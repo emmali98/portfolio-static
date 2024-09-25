@@ -16,8 +16,7 @@ const worksData = [
         path: 'https://orange-zs4q.onrender.com',
         image: {path: './orange-cover.png', alt: 'Orange thumbnail'},
         notes: `A post-apocalyptic webcomic in the spirit of hypertext fiction, 
-        featuring a robot, a bridge, and a cat named Marvin.
-        \nNote: It may take up to a minute for the link to load.`
+        featuring a robot, a bridge, and a cat named Marvin.`
     },
     {
         title: 'Chicken',

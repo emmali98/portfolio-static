@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 /* GLOBAL CSS RESET
    http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -58,18 +60,28 @@ table {
 	font-family: 'Bohemian Typewriter';
 	src: local('Bohemian Typewriter'), url(../public/Bohemian-Typewriter.ttf) format('truetype');
 }
+@font-face {
+	font-family: 'Cabin';
+	src: local('Cabin'), url(../public/Cabin-Regular.ttf) format('truetype');
+}
 
 /* GLOBAL STYLES */
 body {
-	font-family: 'Bohemian Typewriter', 'Courier New';
+	font-family: 'Cabin', sans-serif;
+	line-height: 1.5em;
 	font-size: 18px;
-	background-color: #fef0d7;
+	background-color: $background;
 }
 
 h1 {
+	font-family: 'Bohemian Typewriter';
 	font-weight: bold;
 	font-size: 32px;
 	padding-bottom: 0.5em;
+}
+h2, h3, h4, h5, h6
+{
+	font-family: 'Bohemian Typewriter';
 }
 
 button {
@@ -85,7 +97,7 @@ button {
 }
 
 a {
-	color:#3a88a2;
+	color:$blue;
 	&:hover { color: black; }
 }
 

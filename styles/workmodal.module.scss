@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 .modal {
     position: absolute;
     top: 5vh;
@@ -5,7 +7,7 @@
     height: 90vh;
     width: 90vw;
     max-width: 768px;
-    background-color: #fef0d7;
+    background-color: $background;
 
     .wrapper {
         position: relative;
@@ -17,10 +19,10 @@
 
     .close {
         font-size: 36px;
-        color: orangered;
+        color: $blue;
         width: fit-content;
         margin: 0 0 0 auto;
-        &:hover { color: yellow; }
+        &:hover { color: $red; }
     }
 
     .imageWrapper {
@@ -33,6 +35,11 @@
 
         .notes {
             margin: 1em 0;
+        }
+
+        a {
+            font-family: 'Bohemian Typewriter', 'Courier New';
+            &:hover { color: $orange; }
         }
     }
 

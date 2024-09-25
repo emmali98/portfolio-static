@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 .navigation {
     margin: 2em auto;
     display: flex;
@@ -10,6 +12,7 @@
         text-transform: uppercase;
         padding: 0.25em 10vw;
         width: fit-content;
+        font-family: 'Bohemian Typewriter', 'Courier New';
 
         &:nth-of-type(1) { 
             font-weight: bold;
@@ -17,7 +20,7 @@
         }
         
         &.active, &:hover { 
-            color: rgb(235, 170, 72);
+            color: $orange;
         }
     }
 }

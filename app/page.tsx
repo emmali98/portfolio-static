@@ -6,7 +6,7 @@ export default function Page() {
     return (
       <div className={styles.wrapper}>
         <Image src={introPic} alt="drawing of the sun through trees" />
-        <h1>a mini portfolio</h1>
+        <h1 className={styles.accent}>a mini portfolio</h1>
       </div>
     )
   }

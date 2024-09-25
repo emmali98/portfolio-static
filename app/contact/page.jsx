@@ -6,7 +6,7 @@ import sunTrees from '../../public/sun-2.png';
 export default function Page() {
   return (<div className={styles.wrapper}>
     <h1>Contact</h1>
-    <p>I am open for freelance work at this time: animation, basic film editing, 
+    <p>I am open for freelance work at this time: animation, video editing, 
       front-end development, and illustration.
     </p>
     <p>You can reach me at my email <a href="mailto:emma.m.li.98@gmail.com">emma.m.li.98@gmail.com</a>,

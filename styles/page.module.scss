@@ -1,4 +1,11 @@
+@import './variables.scss';
+
 .wrapper {
     margin: 5vw;
     max-width: 768px;
+}
+
+h1.accent {
+    font-size: 22px;
+    color: $blue;
 }
